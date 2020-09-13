@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="535" height="535" viewBox="0 0 535 535">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #10e6e2;
+        stroke-width: 20px;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_25" data-name="Group 25" transform="translate(-617 -369)">
+    <g id="BORDER" class="cls-1" transform="translate(617 369)">
+      <circle class="cls-2" cx="267.5" cy="267.5" r="267.5"/>
+      <circle class="cls-3" cx="267.5" cy="267.5" r="257.5"/>
+    </g>
+  </g>
+</svg>

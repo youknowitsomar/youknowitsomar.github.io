@@ -1,0 +1,9 @@
+<svg id="VEHICLE_DESIGN" data-name="VEHICLE DESIGN" xmlns="http://www.w3.org/2000/svg" width="535" height="535" viewBox="0 0 535 535">
+  <g id="Group_34" data-name="Group 34" transform="translate(-617 -369)">
+    <g id="BORDER" transform="translate(617 369)" fill="none" stroke="#cb7cd9" stroke-width="20">
+      <circle cx="267.5" cy="267.5" r="267.5" stroke="none"/>
+      <circle cx="267.5" cy="267.5" r="257.5" fill="none"/>
+    </g>
+  </g>
+  <text id="VEHICLES" transform="translate(79.07 218)" fill="#fff" font-size="60" font-family="Oswald" font-weight="700"><tspan x="73.21" y="72">VEHICLES</tspan></text>
+</svg>

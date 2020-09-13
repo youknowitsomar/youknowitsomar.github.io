@@ -1,0 +1,10 @@
+<svg id="UX_UI" data-name="UX/UI" xmlns="http://www.w3.org/2000/svg" width="535" height="535" viewBox="0 0 535 535">
+  <g id="Group_32" data-name="Group 32" transform="translate(-617 -369)">
+    <g id="BORDER" transform="translate(617 369)" fill="none" stroke="#fe68a8" stroke-width="20">
+      <circle cx="267.5" cy="267.5" r="267.5" stroke="none"/>
+      <circle cx="267.5" cy="267.5" r="257.5" fill="none"/>
+    </g>
+  </g>
+  <circle id="Ellipse_33" data-name="Ellipse 33" cx="212" cy="212" r="212" transform="translate(56.047 59)" fill="#fe68a8"/>
+  <text id="CASE_STUDIES" data-name="CASE STUDIES" transform="translate(165.07 182)" font-size="60" font-family="Oswald" font-weight="700"><tspan x="40.97" y="72">CASE </tspan><tspan x="0.65" y="142">STUDIES</tspan></text>
+</svg>
