@@ -1,5 +1,5 @@
 body{
-  
+  background-color: black; 
 
   
 }
@@ -82,6 +82,10 @@ body{
   display:flex;
   grid-template-rows: flex;
   justify-content: space-evenly ; 
+
+}
+
+.flexContainer {
 
 }
 

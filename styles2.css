@@ -28,6 +28,7 @@ header{
 }
 
 nav{
+
   display: flex;
   flex-direction: row;  
   justify-content: space-evenly;
@@ -35,18 +36,26 @@ nav{
   color: white;
   font-size: 36pt;
   font-weight: 100;
-  margin-left:-55px ;
-  margin-top: -20px;
   align-items: flex-start;
   transition: 0.3s ease-out;
+  margin-top: -20px;
+  margin-left: -140px;
+  margin-right: 150px;
+
+  margin-left: 0auto
+  ;
+  order: 1px;;
+  
+  
 }
 
-.uxui {
-  color: white
+.work {
+  color: white;
+ 
 }
-.uxui:hover {
+.work:hover {
   cursor: pointer;
-  color:#FE68A8 ;
+  color:#10E6E2 ;
   transform: 0.5s ease-out ; 
   transform: rotates;
   border-radius: 400px;
@@ -54,12 +63,13 @@ nav{
 
 }
 
-.uichallenges {
-  color: white
+.passionprojects {
+  color: white;
+
 }
-.uichallenges:hover {
+.passionprojects:hover {
   cursor: pointer;
-  color: #FFC021  ;
+  color:#10E6E2;
   transform: 0.5s ease-out ; 
   transform: rotates;
   border-radius: 400px;
@@ -67,38 +77,13 @@ nav{
   
 }
 
-.vehicles {
-  color: white
-}
-.vehicles:hover {
-  cursor: pointer;
-  color: #CB7CD9;
-  transform: 0.5s ease-out ; 
-  transform: rotates;
-  border-radius: 400px;
-  font-size: 36pt ;
-  
-}
-
-.sketches {
-  color: white
-}
-.sketches:hover {
-  cursor: pointer;
-  color: #DD0568;
-  transform: 0.5s ease-out ; 
-  transform: rotates;
-  border-radius: 400px;
-  font-size: 36pt ;
-  
-}
 
 .resume {
   color: white
 }
 .resume:hover {
   cursor: pointer;
-  color: #F93C21;
+  color: #10E6E2;
   transform: 0.5s ease-out ; 
   transform: rotates;
   border-radius: 400px;
@@ -110,7 +95,7 @@ nav{
 #omarGrid {
   margin: 0px 5%;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: 
     "headshot header-nav header-nav"
@@ -148,27 +133,49 @@ nav{
 }
 .line1 {
   grid-area: line1;
-  background-image: url("../images/leftline.svg");
+  background-color: green;
+  background-image: url("../images/");
   background-repeat: no-repeat;
-  margin-top: 60px;
-  margin-left: 250px;
-  height: 535px;
+  list-style-type: none;
   display: flex;
   flex-direction: row;
+  height: 535px;
+  
 }
+
+.introtext{
+  
+  font-family: Oswald;
+  color: white;
+  font-size: 36pt;
+  font-weight: 100;
+  margin-top: 250px;
+  padding-left: 175px;
+  padding-right: 175px;
+  padding-top: 20px;
+  margin-right: 0;
+  margin-bottom: 350px;
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+
 .uxcircle1 {
+  background-color: red;
   grid-area: uxcircle1;
-  background-image: url("../images/uxcircle1.svg");
   background-repeat: no-repeat;
   background-size: 500;
-  margin-top: 50px;
+  margin-top: 50px
   height: 535px;
+}
 }
 
 .uxcircle1:hover {
   cursor: pointer;
   grid-area: uxcircle1;
-  background-image: url("../images/uxcircle1b.svg");
+  background-image: url("../images/");
   background-repeat: no-repeat;
   transform: 0.5s ease-out ;
   background-size: 500;
@@ -177,26 +184,42 @@ nav{
 }
 
 .line2 {
+  background-color: blue;
   grid-area: line2;
-  background-image: url("../images/rightline.svg");
+  background-image: url("../images/");
   background-repeat: no-repeat;
-  margin-top: 60px;
-  margin-left: 60px;
+  margin-top: 0px;
+  margin-left: auto
   height: 535px;
+  display: flex;
+  flex-direction: row;
+}
+
+.trottytext{
+  background-color: black;
+  font-family: Oswald;
+  color: white;
+  font-size: 36pt;
+  font-weight: 100;
+  margin-top: 250px;
+  padding-left: 350px;
+  padding-top: 20px;
+  align-items: center;
 }
 .uxcircle2 {
+  background-color: red;
   grid-area: uxcircle2;
-  background-image: url("../images/uxcircle2.svg");
+ 
   background-repeat: no-repeat;
-  background-size: 535px;
-  margin-top: 50px;
+  background-size: 500;
+  margin-top: 50px
   height: 535px;
 }
 
 .uxcircle2:hover {
   cursor: pointer;
   grid-area: uxcircle2;
-  background-image: url("../images/uxcircle2b.svg");
+  background-image: url("");
   background-repeat: no-repeat;
   transform: 0.5s ease-out ;
   background-size: 535px;
@@ -206,25 +229,39 @@ nav{
 
 .line3 {
   grid-area: line3;
-  background-image: url("../images/leftline.svg");
+  background-color: blue;
+  background-image: url("../images/");
   background-repeat: no-repeat;
-  margin-top: 50px;
-  margin-left: 250px;
+  margin-top: 0px;
+  margin-left: auto
   height: 535px;
+  display: flex;
+  flex-direction: row;
+}
+
+.leveluptext{
+  font-family: Oswald;
+  color: white;
+  font-size: 36pt;
+  font-weight: 100;
+  margin-top: 250px;
+  padding-left: 200px;
+  padding-top: 20px;
+  align-items: center;
 }
 .uxcircle3 {
+  background-color: red;
   grid-area: uxcircle3;
-  background-image: url("../images/uxcircle3.svg");
   background-repeat: no-repeat;
-  background-size: 535px;
-  margin-top: 40px;
+  background-size: 500;
+  margin-top: 50px
   height: 535px;
 }
 
 .uxcircle3:hover {
   cursor: pointer;
   grid-area: uxcircle3;
-  background-image: url("../images/uxcircle3b.svg");
+  background-image: url("../images/");
   background-repeat: no-repeat;
   transform: 0.5s ease-out ;
   background-size: 535px;
@@ -233,27 +270,30 @@ nav{
 }
 
 .line4 {
+  background-color: blue;
   grid-area: line4;
-  background-image: url("../images/rightline.svg");
+  background-image: url("../images/");
   background-repeat: no-repeat;
-  margin-top: 50px;
-  margin-left: 60px;
+  margin-top: 0px;
+  margin-left: auto
   height: 535px;
+  display: flex;
+  flex-direction: row;
 }
 .uxcircle4 {
+  background-color: red;
   grid-area: uxcircle4;
-  background-image: url("../images/uxcircle4.svg");
+ 
   background-repeat: no-repeat;
-  transform: 0.5s ease-out ;
-  background-size: 535px;
-  margin-top: 40px;
+  background-size: 500;
+  margin-top: 50px
   height: 535px;
 }
 
 .uxcircle4:hover {
   cursor: pointer;
   grid-area: uxcircle4;
-  background-image: url("../images/uxcircle4b.svg");
+  background-image: url("../images/");
   background-repeat: no-repeat;
   transform: 0.5s ease-out ;
   background-size: 535px;
@@ -261,20 +301,34 @@ nav{
   height: 535px;
 }
 
+.fcctext{
+  font-family: Oswald;
+  color: white;
+  font-size: 36pt;
+  font-weight: 100;
+  margin-top: 250px;
+  padding-left: 200px;
+  padding-top: 20px;
+  align-items: center;
+}
+
 .line5 {
   grid-area: line5;
-  background-image: url("../images/leftline.svg");
+  background-color: blue;
+  background-image: url("../images/");
   background-repeat: no-repeat;
-  margin-top: 50px;
-  margin-left: 250px;
+  margin-top: 0px;
+  margin-left: auto
   height: 535px;
+  display: flex;
+  flex-direction: row;
 }
 .uxcircle5 {
+  background-color: red;
   grid-area: uxcircle5;
-  background-image: url("../images/uxcircle6.svg");
   background-repeat: no-repeat;
-  background-size: 535px;
-  margin-top: 40px;
+  background-size: 500;
+  margin-top: 50px
   height: 535px;
 }
 
@@ -289,19 +343,36 @@ nav{
   height: 535px;
 }
 
+.mfftext{
+  font-family: Oswald;
+  color: white;
+  font-size: 36pt;
+  font-weight: 100;
+  margin-top: 250px;
+  padding-left: 100px;
+  padding-top: 20px;
+  align-items: center;
+}
+
+
 .line6 {
+  background-color: blue;
   grid-area: line6;
-  background-image: url("../images/rightline.svg");
+  background-image: url("../images/");
   background-repeat: no-repeat;
-  margin-top: 50px;
-  margin-left: 60px;
+  margin-top: 0px;
+  margin-left: 0px
   height: 535px;
+  display: flex;
+  flex-direction: row;
  }
 .socialmedia {
+  background-color: red;
   display: flex;
   flex-direction: row;  
   justify-content: center;
   align-items: center;
+  padding-right: 50px;
   
 }
 
