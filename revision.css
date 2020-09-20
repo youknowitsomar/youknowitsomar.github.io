@@ -1,0 +1,205 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body{
+background:black;
+}
+
+  #omarGrid {
+    width: 90%;
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 300px 500px 500px 500px 500px 500px 500px 500px 500px ;
+    grid-template-columns: 1fr 2fr ;
+    grid-template-areas: 
+      "headshot header-nav header-nav"
+      "line2 line2 line2"
+      "line3 line3 trottyimg"
+      "levelupimg line4 line4"
+      "line5 line5 fccimg"
+      "mffimg line6 line6 "
+      "line7 line7 causeproj"
+      "passion line8 line8 "
+      ". socialmedia .";
+  }
+
+  header{
+    grid-area: header-nav;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 72pt;
+    font-weight: initial;
+    margin-left: -50px;
+    margin-top: 185px;
+    margin-bottom: -30px; 
+    transition: 0.3s ease-out;
+    
+  }
+  
+  header2{
+    font-family: 'Work Sans', sans-serif;                                     color: white;
+    font-size: 72pt;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    margin-left: -45px;
+     
+    transition: 0.3s ease-out;
+    
+  }
+  
+  nav{
+    grid-area: header-nav;
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-evenly;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 36pt;
+    font-weight: 100;
+    margin-left:-0px ;
+    margin-top: -20px;
+    align-items: flex-start;
+    transition: 0.3s ease-out;
+  }
+
+  .subnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    margin-top: 20px;
+    margin-left: -50px;
+    
+  }
+
+ 
+  
+ 
+  .smallheadshot {
+    grid-area: headshot;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    margin-top: 130px;
+    margin-left: 150px;
+    height: 300px
+  }
+
+  .smallheadshot:hover {
+    cursor: pointer;
+    grid-area: headshot;
+    background-image: url("../images/");
+    background-repeat: no-repeat;
+    transform: 0.5s ease-out ;
+    background-size: 500px;
+    margin-top: 115px;
+    height: 300px;
+   
+  }
+
+
+}
+.work {
+  color: white
+}
+.work:hover {
+  cursor: pointer;
+  color:#10E6E2 ;
+  transform: 0.5s ease-out ; 
+  transform: rotates;
+  border-radius: 400px;
+  font-size: 36pt ;
+
+}
+.contact{
+  color: white
+}
+.contact:hover {
+  cursor: pointer;
+  color:#10E6E2 ;
+  transform: 0.5s ease-out ; 
+  transform: rotates;
+  border-radius: 400px;
+  font-size: 36pt ;
+
+}
+
+.aboutme{
+  color: white
+}
+.aboutme:hover {
+  cursor: pointer;
+  color:#10E6E2 ;
+  transform: 0.5s ease-out ; 
+  transform: rotates;
+  border-radius: 400px;
+  font-size: 36pt ;
+
+}
+
+.resume{
+  color: white
+}
+.resume:hover {
+  cursor: pointer;
+  color:#10E6E2 ;
+  transform: 0.5s ease-out ; 
+  transform: rotates;
+  border-radius: 400px;
+  font-size: 36pt ;
+
+}
+
+.line2{
+  grid-area: line2 ;
+  
+  margin-top: 368px;
+  height: 500px;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+}
+
+.softintro{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 36px;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  padding-top: 225px;
+  padding-left: 318px;
+  padding-right:318px; 
+  
+}
+
+.trottytext{
+  background-color: green;
+  grid-area: line3 ;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 36px;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  padding-top: 225px;
+  padding-left: 0 auto;
+  padding-right:0 auto; 
+  
+}
+
+.trottyline{
+  background-color: green;
+  grid-area: line3 ;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 36px;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  padding-top: 225px;
+  padding-left: 318px;
+  padding-right:318px; 
+  
+}
